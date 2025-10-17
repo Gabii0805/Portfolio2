@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel C. Mendoza | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <i class="fas fa-flag-checkered"></i>
+                <h2>PORTFOLIO</h2>
+            </div>
+            <div class="loading-track">
+                <div class="loading-car"></div>
+            </div>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <!-- Pit Stop Navigation -->
+    <div class="pit-stop-nav">
+        <div class="pit-stop-indicators">
+            <div class="pit-indicator active" data-section="home"></div>
+            <div class="pit-indicator" data-section="about"></div>
+            <div class="pit-indicator" data-section="projects"></div>
+            <div class="pit-indicator" data-section="contact"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-flag-checkered"></i>
+                <h1>MY PORTFOLIO</h1>
+            </div>
+            <nav class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="track-lines"></div>
+            <div class="moving-cars">
+                <div class="moving-car" style="--delay: 0s;"></div>
+                <div class="moving-car" style="--delay: 1s;"></div>
+                <div class="moving-car" style="--delay: 2s;"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2 class="typing-animation">Gabriel C. Mendoza</h2>
+                <p>Full-Stack Developer & UI/UX Designer with a passion for creating high-performance digital experiences.</p>
+                <div class="hero-tags">
+                    <span class="tag">Frontend Development</span>
+                    <span class="tag">Backend Developer</span>
+                    <span class="tag">UI/UX Design</span>
+                </div>
+                <a href="#projects" class="cta-button">
+                    <span>View my work</span>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+            <div class="hero-visual">
+                <div class="profile-image-container">
+                    <img src="gab2.jpg" alt="Gabriel Mendoza" class="profile-image">
+                    <div class="image-border"></div>
+                    <div class="image-glow"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-wheel"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-title">
+            <h2>About Me</h2>
+            <div class="title-decoration">
+                <div class="decoration-line"></div>
+                <i class="fas fa-flag-checkered"></i>
+                <div class="decoration-line"></div>
+            </div>
+        </div>
+        <div class="about-content">
+            <div class="about-card">
+                <div class="card-header">
+                    <i class="fas fa-helmet-safety"></i>
+                    <h3>Developer Portfolio</h3>
+                </div>
+                <div class="card-content">
+                    <p>I specialize in creating high-performance web applications with precision engineering and attention to detail. With a background in both frontend and backend development, I build digital solutions that are fast, efficient, and user-friendly.</p>
+                    <ul class="skill-tags">
+                        <li>Frontend Developer</li>
+                        <li>UI/UX Design</li>
+                        <li>Performance Optimization</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="about-card">
+                <div class="card-header">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <h3>Tech Stack</h3>
+                </div>
+                <div class="card-content">
+                    <div class="tech-stack">
+                        <div class="tech-item">
+                            <span class="tech-name">JavaScript</span>
+                            <div class="tech-bar">
+                                <div class="tech-progress" data-level="95"></div>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-name">Python</span>
+                            <div class="tech-bar">
+                                <div class="tech-progress" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-name">Node.js</span>
+                            <div class="tech-bar">
+                                <div class="tech-progress" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-name">Php</span>
+                            <div class="tech-bar">
+                                <div class="tech-progress" data-level="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-title">
+            <h2>My Projects</h2>
+            <div class="title-decoration">
+                <div class="decoration-line"></div>
+                <i class="fas fa-tachometer-alt"></i>
+                <div class="decoration-line"></div>
+            </div>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="LandingPage.png" alt="Landing Page Project" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Landing Page</h3>
+                    <p class="project-description">A responsive landing page built with HTML & CSS. Features smooth animations, mobile-first design, and optimized performance.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        
+                    
+                    </div>
+                    <a href="https://landing-page-7bng.vercel.app/" class="project-link">
+                        <span>View Project</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="portfolio.png" alt="Portfolio Website" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Portfolio</h3>
+                    <p class="project-description">A personal portfolio website showcasing projects and skills. Built with modern web technologies and featuring a clean, professional design.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Github</span>
+                    </div>
+                    <a href="https://github.com/Gabii0805/Portfolio/blob/main/gabo%20portfolio2/index.html" class="project-link">
+                        <span>View Code</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Smart Bank App" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Smart Bank Application</h3>
+                    <p class="project-description">A banking application with secure authentication, transaction tracking, and financial analytics. Built with security and user experience in mind.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Php</span>
+                        <span class="tech-tag">CSS</span>
+                    </div>
+                    <a href="https://github.com/Cindy5913/Bank-Account-System.git" class="project-link">
+                        <span>View Project</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-title">
+            <h2>Contact</h2>
+            <div class="title-decoration">
+                <div class="decoration-line"></div>
+                <i class="fas fa-envelope"></i>
+                <div class="decoration-line"></div>
+            </div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Location</h3>
+                        <p>Bagalangit, Mabini, Batangas</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>mendozagabriel253@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+63 905 570 2751</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required>
+                        <label for="email">Email Address</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <i class="fas fa-flag-checkered"></i>
+                        <h2>GABRIEL MENDOZA</h2>
+                    </div>
+                    <p>Building digital experiences at full speed</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Navigation</h4>
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Connect</h4>
+                        <a href="https://github.com/Gabii0805/gabo.html">GitHub</a>
+                        <a href="https://www.instagram.com/_gaaabiiiiiii">Instagram</a>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Gabriel Mendoza. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/Gabii0805/gabo.html"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/_gaaabiiiiiii/"><i class="fab fa-instagram"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
